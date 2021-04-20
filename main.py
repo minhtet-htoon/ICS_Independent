@@ -2,15 +2,13 @@ import numpy as np
 from random import randint
 from sklearn.utils import shuffle
 from sklearn.preprocessing import MinMaxScaler
-import tensorflow as tf
-from tensorflow import keras
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Activation
 from tensorflow.keras.optimizers import Adam
 from sklearn.metrics import confusion_matrix
 import itertools
 import matplotlib.pyplot as plt
-from tensorflow.keras.metrics import categorical_crossentropy
+
 
 train_labels = []
 train_samples = []
